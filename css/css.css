@@ -1,0 +1,14 @@
+*{
+    position:relative;
+}
+body,html{
+    margin:0;
+    padding:0;
+}
+div{
+    float:left;
+    width:40%;
+    height:200px;
+    margin:3em;
+    background:#303030;
+}
