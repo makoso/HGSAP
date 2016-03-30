@@ -1,14 +1,17 @@
 # HGSAP
 Animation written in HTML using the library GSAP ? You may soon be possible.
 # Navigation
-* [GitHub Pages](https://pages.github.com/)
-  * [GitHub Pages](https://pages.github.com/)
-  * [GitHub Pages](https://pages.github.com/)
-  * [GitHub Pages](https://pages.github.com/)
-* [GitHub Pages](https://pages.github.com/)
-  * [GitHub Pages](https://pages.github.com/)
-    * [GitHub Pages](https://pages.github.com/)
-    * [GitHub Pages](https://pages.github.com/)
+* [HGSAP](#hgsap)
+* [How To Use](#initialize-js)
+  * [Initialize JS](#initialize-js)
+  * [Prepare CSS](#prepare-css)
+  * [HTML attributes](#html-attributes)
+    * [data-g-time](#data-g-time)
+    * [data-timeline](#data-timeline)
+    * [data-g-from](#data-g-from)
+    * [data-g-to](#data-g-to)
+    * [data-g-position](#data-g-position)
+
 # How To use
 ## Including
   Include GSAP.
