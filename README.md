@@ -40,7 +40,7 @@ Animation written in HTML using the library GSAP ? You may soon be possible.
   }
   ```
 ## HTML attributes
-| Attribute | Description |
+|     Attribute     | Description |
 | :----- | :--- |
 | data-timeline | This attribute id default selector for initialize object, if two or more attributes have some `data-g-timeline` animations are executing one after prev, if you not set `data-g-position` attribute. First executing is element on the top of DOM, all obiects without attribute `data-on-scroll` are executing on load page. |
 | data-g-time | description |
