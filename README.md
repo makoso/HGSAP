@@ -17,6 +17,7 @@ Animation written in HTML using the library GSAP ? You may soon be possible.
       hgsap.storeObjects();
   }
   ```
+  You can past selector inside ``` storeObjects();``` the default is ``` [data-timeline]:not([data-finished]) ```
 ## Prepare CSS
   If you want to change positions of obiects you must add ``` position:relative; ``` to this obiect
 
