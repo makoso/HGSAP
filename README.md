@@ -25,6 +25,7 @@ Animation written in HTML using the library GSAP ? You may soon be possible.
   *{
     position:relative;
   }
+  ```
 ## HTML attributes
 
 # About Me
