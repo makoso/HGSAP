@@ -3,15 +3,15 @@ Animation written in HTML using the library GSAP ? You may soon be possible.
 # How To use
 ## Including
   Include GSAP.
-  
+
   Download https://github.com/makoso/HGSAP/blob/master/js/hgsap.js
   and add to your document.
   Inside your
-  ```
+  ```js
   document.ready(){}
   ```
   initialize hgsap with function ```hgsap.storeObjects();```
-  ```
+  ```js
   document.ready(){
       hgsap.storeObjects();
   }
