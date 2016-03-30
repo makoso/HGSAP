@@ -1,7 +1,7 @@
 # HGSAP
 Animation written in HTML using the library GSAP ? You may soon be possible.
 # How To use
-  ## Including
+## Including
   Include GSAP
   Download https://github.com/makoso/HGSAP/blob/master/js/hgsap.js
   and add to your document.
