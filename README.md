@@ -42,11 +42,11 @@ Animation written in HTML using the library GSAP ? You may soon be possible.
 ## HTML attributes
 | Attribute | Description |
 | :--- | :--- |
-| ### data-timeline | This attribute id default selector for initialize object, if two or more attributes have some `data-g-timeline` animations are executing one after prev, if you not set `data-g-position` attribute. First executing is element on the top of DOM, all obiects without attribute `data-on-scroll` are executing on load page. |
-| ### data-g-time | description |
-| ### data-g-from | description |
-| ### data-g-to | description |
-| ### data-g-position | description |
+| data-timeline | This attribute id default selector for initialize object, if two or more attributes have some `data-g-timeline` animations are executing one after prev, if you not set `data-g-position` attribute. First executing is element on the top of DOM, all obiects without attribute `data-on-scroll` are executing on load page. |
+| data-g-time | description |
+| data-g-from | description |
+| data-g-to | description |
+| data-g-position | description |
 
 # About Me
 Hi, i'm a amateur programer, i like programing backend of web aplications with Symfony framework, but now i need to up my js skill, then i started this project.
