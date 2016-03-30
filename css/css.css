@@ -1,5 +1,8 @@
 *{
     position:relative;
+    color:#fff;
+    font-size:1.2em;
+    text-align: center;
 }
 body,html{
     margin:0;
@@ -7,8 +10,7 @@ body,html{
 }
 div{
     float:left;
-    width:40%;
-    height:200px;
+    width:38%;
     margin:3em;
     background:#303030;
 }

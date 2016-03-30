@@ -24,10 +24,15 @@ var HGSAP = function(){
     }
     function makeAnimOnTimeline(obj, timeline){
         var data = obj.data();
-        if(data.gFrom){
-            timeline.fromTo(obj, data.gTime, {css:data.gFrom}, {css:data.gTo}, data.gPosition);
-        } else {
-            timeline.to(obj, data.gTime, data.gTo, data.gPosition);
+        console.log(data);
+        try {
+            if (data.gFrom) {
+                timeline.fromTo(obj, data.gTime, {css: data.gFrom}, {css: data.gTo}, data.gPosition);
+            } else {
+                timeline.to(obj, data.gTime, data.gTo, data.gPosition);
+            }
+        } catch(e){
+            throw ('Make sure u put data-g-time and data-g-to attributes');
         }
     }
     this.storeObjects = function( selector ){

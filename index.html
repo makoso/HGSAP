@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>HGSAP</title>
-    <link rel="stylesheet" href="css/css.css"/>
-    <script src="js/jq.js"></script>
-    <script src="js/gsap.js"></script>
-    <script async src="js/hgsap.js"></script>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/makoso/HGSAP/master/css/css.css"/>
+    <script src="https://raw.githubusercontent.com/makoso/HGSAP/master/js/jq.js"></script>
+    <script src="https://raw.githubusercontent.com/makoso/HGSAP/master/js/gsap.js"></script>
+    <script async src="https://raw.githubusercontent.com/makoso/HGSAP/master/js/hgsap.js"></script>
 </head>
 <body>
-<div data-timeline="1" data-g-time=2 data-g-from={"left":-700,"top":-700} data-g-to={"left":0,"top":0} ></div>
-<div data-timeline="1" data-g-time=2 data-g-to={"rotationX":360}></div>
-<div data-timeline="2" data-g-time=2 data-g-to={"skewX":360}></div>
-<div data-timeline="2" data-g-time=2 data-g-to={"backgroundColor":"#303"} data-g-position="-=2"></div>
-<div data-timeline="3"></div>
-<div data-timeline="3"></div>
-<div data-timeline="3"></div>
-<div data-timeline="1"></div>
+<div data-timeline=1 data-g-time=3 data-g-from={"left":-700,"top":-700} data-g-to={"left":0,"top":0} >#1 animated on start </div>
+<div data-timeline=1 data-g-time=3 data-g-to={"rotationX":360}>#2 animated after #1 is end</div>
+<div data-timeline=2 data-g-time=3 data-g-to={"skewX":360}>#3 new timeline animated with #1</div>
+<div data-timeline=2 data-g-time=3 data-g-to={"backgroundColor":"#303","color":"#00ff00","skewY":360} data-g-position="-=3">#4 animated with #3 by data-g-position property</div>
+<div data-timeline=3 data-g-time=3 data-g-to={"skewX":360}>#5</div>
+<div data-timeline=3 data-g-time=3 data-g-to={"skewX":360}>#6</div>
+<div data-timeline=3 data-g-time=3 data-g-to={"skewX":360}>#7</div>
+<div data-timeline=1 data-g-time=3 data-g-to={"skewX":360}>#8</div>
 </body>
 </html>
