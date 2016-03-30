@@ -18,7 +18,7 @@ Animation written in HTML using the library GSAP ? You may soon be possible.
   }
   ```
 ## Prepare CSS
-  If you want to change positions of obiects you must add ```css position:relative; ``` to this obiect
+  If you want to change positions of obiects you must add ``` position:relative; ``` to this obiect
 
   Prefering is if you add it to all obiects:
   ```css
